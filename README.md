@@ -36,7 +36,7 @@ Organizations face cybersecurity threats like phishing, insider threats, and mal
 
 1️⃣ Clone this repository:
 
-git clone https://github.com/yourusername/Risk-Management-Project.git
+git clone https://github.com/TheTechProPrincess/Risk-Management-Project.git
 
 2️⃣ Open risk_matrix.xlsx to see the risk analysis.
 3️⃣ Run the Python script to automate risk scoring:
