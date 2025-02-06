@@ -1,7 +1,5 @@
 # Network-Security-Risk-Assessment
 
-📜 README.md
-
 Risk Management: Corporate Network Security Risk Assessment
 
 🔍 Project Summary
