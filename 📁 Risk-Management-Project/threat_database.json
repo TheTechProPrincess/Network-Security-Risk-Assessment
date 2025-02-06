@@ -1,0 +1,19 @@
+📜 threat_database.json
+
+This JSON file contains predefined threats.
+
+[
+    {
+        "name": "Phishing Attack",
+        "likelihood": 4,
+        "impact": 5
+    },
+    {
+        "name": "Weak Passwords",
+        "likelihood": 4,
+        "impact": 3
+    },
+    {
+        "name": "Unpatched Software",
+        "likelihood": 3,
+        "impact": 5
