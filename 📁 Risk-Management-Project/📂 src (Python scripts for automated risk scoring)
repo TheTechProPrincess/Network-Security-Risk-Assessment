@@ -1,0 +1,35 @@
+This Python script automates risk scoring by taking risk data from threat_database.json.
+
+import json
+
+# Load threat database
+with open('threat_database.json', 'r') as file:
+    threats = json.load(file)
+
+def calculate_risk(likelihood, impact):
+    return likelihood * impact
+
+def assess_risks():
+    for threat in threats:
+        risk_score = calculate_risk(threat["likelihood"], threat["impact"])
+        threat["risk_score"] = risk_score
+        threat["risk_level"] = classify_risk(risk_score)
+
+    return threats
+
+def classify_risk(score):
+    if score >= 20:
+        return "Critical"
+    elif score >= 12:
+        return "High"
+    elif score >= 6:
+        return "Medium"
+    else:
+        return "Low"
+
+# Run risk assessment
+assessed_risks = assess_risks()
+
+# Print results
+for risk in assessed_risks:
+    print(f"Threat: {risk['name']} | Risk Score: {risk['risk_score']} | Risk Level: {risk['risk_level']}")
