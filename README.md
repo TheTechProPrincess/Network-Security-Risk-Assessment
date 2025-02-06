@@ -13,13 +13,21 @@ Organizations face cybersecurity threats like phishing, insider threats, and mal
 🏆 Project Goals
 
 ✔️ Conduct a security risk assessment for a corporate network
+
 ✔️ Identify & categorize threats (e.g., Malware, Insider Threats)
+
 ✔️ Assess risk severity using Likelihood & Impact scoring
+
 ✔️ Create a Risk Matrix for visualization
+
 ✔️ Propose Risk Mitigation Strategies
 
 🔧 Technologies Used
-	•	Python (for risk scoring automation)
-	•	Excel (Risk Matrix)
-	•	NIST 800-30 & ISO 27005 frameworks
-	•	JSON (Threat database for automation)
+
+•	Python (for risk scoring automation)
+
+•	Excel (Risk Matrix)
+
+•	NIST 800-30 & ISO 27005 frameworks
+
+•	JSON (Threat database for automation)
