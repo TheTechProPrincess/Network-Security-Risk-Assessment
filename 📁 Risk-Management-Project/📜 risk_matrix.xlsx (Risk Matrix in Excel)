@@ -1,0 +1,10 @@
+The project includes a Risk Matrix that visualizes risks in a structured format.
+
+📊 Risk Matrix Example:
+
+Impact ↓ / Likelihood →	Low (1)	Medium (2)	High (3-5)
+High (5)	Medium	High	Critical
+Medium (3-4)	Low	Medium	High
+Low (1-2)	Low	Low	Medium
+
+🟢 Green = Low Risk, 🟡 Yellow = Medium Risk, 🔴 Red = High/Critical Risk
