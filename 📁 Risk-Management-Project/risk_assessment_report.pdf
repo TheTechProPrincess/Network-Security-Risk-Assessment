@@ -1,0 +1,6 @@
+🔹 Example Risk Table:
+
+Risk Likelihood	Impact	Risk Score (L × I)	Risk Level
+Phishing Attack	High (4)	High (5)	  20	  Critical
+Weak Passwords	High (4)	Medium (3)	12	  High
+Unpatched Soft.	Medium (3) High (5)	  15	  High
