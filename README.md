@@ -48,5 +48,7 @@ python risk_scoring.py
 # 🏆 Final Thoughts
 
 ✅ This project provides a practical approach to risk assessment.
+
 ✅ It aligns with real-world cybersecurity frameworks (NIST 800-30, ISO 27005).
+
 ✅ Risk visualization & automation make it engaging and insightful.
